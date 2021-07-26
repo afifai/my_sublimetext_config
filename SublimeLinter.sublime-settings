@@ -1,0 +1,49 @@
+// SublimeLinter Settings - User
+{
+    "debug": false,
+    "delay": 0.25,
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+    "lint_mode": "background",
+	"linters": {
+            "flake8": {
+            	"python": "C:\\Users\\Afif Akbar Iskandar\\.envs\\pytorch-dl\\Scripts\\python.exe",
+                "@disable": false,
+                "args": [],
+                "builtins": "",
+                "excludes": [],
+                "executable": "",
+                "ignore": "",
+                "jobs": "1",
+                "max-complexity": -1,
+                "max-line-length": null,
+                "select": "",
+                "show-code": false
+            }
+        },
+    "styles": [
+        {
+            "scope": "region.yellowish markup.warning.sublime_linter",
+            "types": ["warning"]
+        },
+        {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "squiggly_underline",
+            "scope": "region.redish markup.error.sublime_linter"
+        }
+    ],
+    "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python",
+            "pythonimproved": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true,
+
+    "show_marks_in_minimap": true,
+}

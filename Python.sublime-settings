@@ -1,0 +1,12 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    // PEP 8 line-length guides & word wrapping
+    "rulers": [72, 79],
+    "word_wrap": true,
+    "wrap_width": 80,
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true,
+    "tab_size": 4,
+    "trim_trailing_white_space_on_save":true
+
+}
